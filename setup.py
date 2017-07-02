@@ -19,7 +19,7 @@ with open("README.md", "r") as fp:
     ln2sql_long_description = fp.read()
 
 setup(name="ln2sql",
-      version=ln2sql.__version__,
+      version="0.1.0",
       author="Ferrero Jeremy",
       author_email="jeremy.ferrero@compilatio.net",
       url="http://pypi.python.org/pypi/ln2sql/",
