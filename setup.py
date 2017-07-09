@@ -5,8 +5,6 @@ try:
 except ImportError:
     from distutils.core import setup
 
-import ln2sql
-
 ln2sql_classifiers = [
     "Programming Language :: Python :: 2",
     "Intended Audience :: Developers",
@@ -24,7 +22,6 @@ setup(name="ln2sql",
       author_email="jeremy.ferrero@compilatio.net",
       url="http://pypi.python.org/pypi/ln2sql/",
       packages=find_packages(),
-      include_package_data=True,
       description="ln2sql is a NLP tool to query a database in natural language",
       long_description=ln2sql_long_description,
       license="MIT",
